@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sales App</title>
+</head>
+<body>
+    <h1>Sales</h1>
+    <div class="main">
+
+        {% if chart %}
+            <img src="data:image/png;base64, {{ chart|safe }}" >
+        {% endif %}
+    
+    </div>
+    
+</body>
+</html>
